@@ -137,6 +137,7 @@ This mod allows you to configure a server spawn location for all players to spaw
     <li>/warp [name]</li>
     <li>/setwarp [name] [rank]</li>
     <li>/warps</li>
+    <li>/delwarp [name]</li>
     <li>/spawn</li>
     <li>/setspawn</li>
   </ul>
