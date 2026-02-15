@@ -43,12 +43,13 @@ Forge Essentials is developed in a modular style, where each feature/system can 
     <li>Block cost (each chunk is 256 blocks 16x16 </li>
     <li>If the claim overlaps exisiting claims</li>
   </ul>
+  
 ![claiming step one](readme_assets/claimstep1.png)
 <br><br><b>Trust Levels</b>
   <br>After finishing previewing the selection you made, enter /claim confirm, this will create your claim.
   <br>PS. When players enter or leave your claim, you will receive a chat notification 
   <br>Now that your claim is complete, you can trust players to it. To review your claim settings, type /claim info (while standing inside the claim)
-![Optional Alt Text](path/to/image.png)
+![claiming step two](readme_assets/claimstep2.png)
   <br><br>Let's now add players to your claim using the command /claim trust [player] [level] Example:/claim trust thepopbox officer 
   <br>To remove a trusted player, you can issue the command /claim untrust [player]
   <br>There are three different trust levels
@@ -96,7 +97,9 @@ Forge Essentials is developed in a modular style, where each feature/system can 
 <summary><b>Click to expand section</b></summary>
 This mod allows you to create as many ranks as you want and connect there permissions using inhertance, Example: Member -> Mod -> Admin, the member rank will have most of the basic funcationally permission which you have configured, then the mod rank will inherit those permission and have a set of their own permission unqiue to them, then the admin rank will inherit the mod and member permissions with their own set of permissions.
 <br>An example setup is already preconfigured within the mods config file, which can be found inside the root/configs/eutills-config.toml
-![Optional Alt Text](path/to/image.png)
+
+  ![rank permissions](readme_assets/rankstep1.png)
+  ![rank info](readme_assets/whoami.png)
 <br><br><b>All Commands for Rank System</b>
   <ul>
     <li>/whoami: Shows the user what rank they are and the commands they have access to</li>
@@ -120,7 +123,8 @@ This mod allows you to configure the number of homes each rank can set, and prov
     <li>/homes</li>
     <li>/back</li>
   </ul>
-![Optional Alt Text](path/to/image.png)
+  
+![homes image](readme_assets/homes.png)
 </details>
 
 # 🌏 Warps System
@@ -141,7 +145,8 @@ This mod allows you to configure a server spawn location for all players to spaw
     <li>/spawn</li>
     <li>/setspawn</li>
   </ul>
-![Optional Alt Text](path/to/image.png)
+  
+![warps image](readme_assets/warps.png)
 </details>
 
 # 🤝 Teleport System
@@ -159,7 +164,8 @@ This mod allows players to request to teleport to eachother or request a player 
     <li>/tpaccept</li>
     <li>/tpdeny</li>
   </ul>
-![Optional Alt Text](path/to/image.png)
+  
+![teleport system images](readme_assets/tpa.png)
 </details>
 
 # 🗳 Voting System (Day/Night Cycle)
@@ -177,7 +183,9 @@ This mod allows players to vote on whether the day/night cycle should be paused 
     <li>/votenight</li>
     <li>/voteresume</li>
   </ul>
-![Optional Alt Text](path/to/image.png)
+  
+![day cycle vote images](readme_assets/votep1.png)
+![day cycle vote images](readme_assets/votep2.png)
 </details>
 
 # ⚙ Admin Utilities
@@ -204,7 +212,8 @@ This mod provides multiple administrative utilities.
   <li>/broadcast [message]: Send a manual broadcast. In the config files, you are able to configure scheduled broadcasts to appear</li>
   <li>/ext: Extiginishs the players negitive effects</li>
 </ul>
-![Optional Alt Text](path/to/image.png)
+  
+![admin util img](readme_assets/adminu.png)
 </details>
 
 # 🎨 Item Utilities
@@ -224,7 +233,8 @@ This mod allows you to change item names and lore using formatting codes and sha
   <li>/eenchant [enchantment] [level]</li>
   <li>/i: Posts held item into chat</li>
 </ul>
-![Optional Alt Text](path/to/image.png)
+  
+![item utils img](readme_assets/itemu.png)
 </details>
 
 # 💬 Informational Utilities
@@ -244,7 +254,8 @@ This mod provides a few ways to share information with your players using built-
     <li>/exp: Shows the player their current experience level and amount of experience</li>
     <li>/afk: Puts a player into /afk state, the player will not take any damage until they move, interact with something, or talk in chat</li>
   </ul>
-![Optional Alt Text](path/to/image.png)
+  
+![info utils img](readme_assets/infou.png)
 </details>
 <hr>
 
