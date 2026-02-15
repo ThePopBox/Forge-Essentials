@@ -238,10 +238,10 @@ This mod provides a few ways to share information with your players using built-
   <ul>
     <li>/ehelp: Shows all the commands this mod offers</li>
     <li>/near: Shows all players within 1000 blocks and their coordinates</li>
-    <li>/discord: Shows the player the server offical discord link</li>
+    <li>/discord: Shows the player the server's official Discord link</li>
     <li>/rules: Shows the player the server rules</li>
     <li>/exp: Shows the player their current experience level and amount of experience</li>
-    <li>/afk: Puts a player into /afk state, the player will not take any type of damage until they move, interact with something, or talk in chat</li>
+    <li>/afk: Puts a player into /afk state, the player will not take any damage until they move, interact with something, or talk in chat</li>
   </ul>
 ![Optional Alt Text](path/to/image.png)
 </details>
