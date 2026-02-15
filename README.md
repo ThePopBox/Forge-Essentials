@@ -105,16 +105,145 @@ This mod allows you to create as many ranks as you want and connect there permis
 </details>
 
 # 🏠 Homes System
+<ol>
+  <li>Configurable amount of homes per rank</li>
+  <li>Teleport back to last death </li>
+</ol>
+<details>
+<summary><b>Click to expand section</b></summary>
+This mod allows you to configure the amount of homes each rank can set, and provides a default amount of  homes if a rank system modual is not enabled. Players can perform /back to return to their death location if they have the permission. 
+<br><br><b>All Commands for Homes System</b>
+  <ul>
+    <li>/sethome [name]</li>
+    <li>/home [name]</li>
+    <li>/delhome [name]</li>
+    <li>/homes</li>
+    <li>/back</li>
+  </ul>
+![Optional Alt Text](path/to/image.png)
+</details>
 
 # 🌏 Warps System
+<ol>
+  <li>Server-definded warp locations</li>
+  <li>Optional rank requirement per warp</li>
+  <li>Spawn management</li>
+</ol>
+<details>
+<summary><b>Click to expand section</b></summary>
+This mod allows you to configure a server spawn location for all players to spawn on when they first join, die without a bed, or execute /spawn. There is also server warps, these warps will automaticly be assigned to the member rank (default rank configured) if no rank requirement is added when setting the warp. When a player first joins the server they will receive a first join welcome message if enabled, it is fully configurable inside the config file. 
+  <br><br><b>All Commands for Warps System</b>
+  <ul>
+    <li>/warp [name]</li>
+    <li>/setwarp [name] [rank]</li>
+    <li>/warps</li>
+    <li>/spawn</li>
+    <li>/setspawn</li>
+  </ul>
+![Optional Alt Text](path/to/image.png)
+</details>
 
 # 🤝 Teleport System
+<ol>
+  <li>Player to player teleport requests</li>
+  <li>Accept / deny workflow</li>
+</ol>
+<details>
+<summary><b>Click to expand section</b></summary>
+This mod allows players to request to teleport to eachother or request a player teleports to them. Giving the reviving player options to accept or deny the request. 
+  <br><br><b>All Commands for Teleport System</b>
+  <ul>
+    <li>/tpa [player]</li>
+    <li>/tpahere [player]</li>
+    <li>/tpaccept</li>
+    <li>/tpdeny</li>
+  </ul>
+![Optional Alt Text](path/to/image.png)
+</details>
 
-# 🗳 Voting System
+# 🗳 Voting System (Day/Night Cycle)
+<ol>
+  <li>Day/Night vote system</li>
+  <li>Cycle pause/resume support</li>
+</ol>
+<details>
+<summary><b>Click to expand section</b></summary>
+This mod allows players to vote on whether the day/night cycle should be paused on either day, night or resume normal flow. This was implemented as a fair way for players using MineColonies to pause the cycle during the day to allow their civs to work 24/7.
+<br><br><b>All Commands for Voting System (Day/Night Cycle</b>
+  <ul>
+    <li>/vote</li>
+    <li>/voteday</li>
+    <li>/votenight</li>
+    <li>/voteresume</li>
+  </ul>
+![Optional Alt Text](path/to/image.png)
+</details>
 
 # ⚙ Admin Utilities
+<ol>
+  <li>Scheuled broadcast messages</li>
+  <li>Qauilty of Life imrpovements for Admins</li>
+  <li>Gamemode short cut commands</li>
+</ol>
+<details>
+<summary><b>Click to expand section</b></summary>
+Thos mod provides multiple administor utilites.
+<br><br><b>All Commands for Admin Utilities</b>
+<ul>
+  <li>/fly: Enables flight</li>
+  <li>/heal: Restores all the players health</li>
+  <li>/feed: Restores all the player hunger</li>
+  <li>/repair: Restores the held items durability to full</li>
+  <li>/gms: Enables gamemode survival</li>
+  <li>gmc: Enables gamemode creative</li>
+  <li>/spectator or /spec: Enables free cam of 250blocks around the player and returns them to their starting location one exit of spectator</li>
+  <li>/smite [player]: Cast lightning on a player</li>
+  <li>/skull: Gives the player their head as an item</li>
+  <li>/estop: Safely shuts the server down</li>
+  <li>/broadcast [message]: Send a manual broastcast, In the config files you are able to configure scheleded broastcast to appear</li>
+  <li>/ext: Extiginishs the players negitive effects</li>
+</ul>
+![Optional Alt Text](path/to/image.png)
+</details>
 
 # 🎨 Item Utilities
+<ol>
+  <li>Rename items (supports formatting codes)</li>
+  <li>Add/remove/list item lore</li>
+  <li>Custom enchant application (any mods enchants)</li>
+  <li>Post held item to chat</li>
+</ol>
+<details>
+<summary><b>Click to expand section</b></summary>
+This mod allows you to chnage item names and lore using formatting codes and share your currently held item into the chat for the rest of the server to see.
+<br><br><b>All Commands for Item Utilites</b>
+<ul>
+  <li>/rename [name]</li>
+  <li>/lore [add|list|clear]</li>
+  <li>/eenchant [enchantment] [level]</li>
+  <li>/i: Posts held item into chat</li>
+</ul>
+![Optional Alt Text](path/to/image.png)
+</details>
 
 # 💬 Informational Utilities
+<ol>
+  <li>Promote server social platforms</li>
+  <li>Ensure players under server rules</li>
+</ol>
+<details>
+<summary><b>Click to expand section</b></summary>
+This mod provides a few ways to share information to your players using built in commands and configure them to your liking.
+<br><br><b>All Commands for Informational Utilities</b>
+  <ul>
+    <li>/ehelp: Shows all the commands this mod offers</li>
+    <li>/near: Shows all players within 1000 blocks and their coordinates</li>
+    <li>/discord: Shows the player the server offical discord link</li>
+    <li>/rules: Shows the player the server rules</li>
+    <li>/exp: Shows the player their current experience level and amount of experience</li>
+    <li>/afk: Puts a player into /afk state, the player will not take any type of damage until they move, interact with something, talk in chat</li>
+  </ul>
+![Optional Alt Text](path/to/image.png)
+
+</details>
 
