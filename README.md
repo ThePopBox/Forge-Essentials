@@ -8,7 +8,7 @@ Server Utilities &amp; Management for Minecraft Forge 1.20.1 (47.3.0)
 <hr>
 
 # Installation
-This mod is desgined to be installed on the server-side only (Clients do <b>not</b> require this mod)
+This mod is designed to be installed on the server-side only (Clients do <b>not</b> require this mod)
 <br>Fully integrable into any Minecraft Forge 1.20.1 server
 <ol>
   <li>Configure the inital forge server</li>
@@ -17,6 +17,26 @@ This mod is desgined to be installed on the server-side only (Clients do <b>not<
   <li>Launch the server</li>
   <li>Configure the mod in the generated config file located in root/configs/eutills-config.toml</li>
 </ol>
+<hr>
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Core Features & Systems](#core-features--systems)
+
+  - [Land Protection (Claims System)](#-land-protection-claims-system)
+  - [Rank & Permission System](#-rank--permission-system)
+  - [Homes System](#-homes-system)
+  - [Warps System](#-warps-system)
+  - [Teleport System](#-teleport-system)
+  - [Voting System (Day/Night Cycle)](#-voting-system-daynight-cycle)
+  - [Admin Utilities](#-admin-utilities)
+  - [Item Utilities](#-item-utilities)
+  - [Informational Utilities](#-informational-utilities)
+
+- [Technical Details](#technical-details)
+- [Roadmap](#roadmap)
+- [Design Philosophy & Develpment Status](#design-philosophy--develpment-status)
 <hr>
 
 # Core Features & Systems
