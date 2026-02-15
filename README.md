@@ -32,7 +32,7 @@ Forge Essentials is developed in a modular style where each feature/system can b
   <li>Admin claim controls</li>
 </ol>
 <details>
-<summary>Click to expand section</summary>
+<summary><b>Click to expand section</b></summary>
 <b>Chunk-based Selection</b>
 <br>Claiming land is done by going to opposite corners of your land and typing /claim pos1 or /claim pos2 (simmilar to WorldEdit)
   <br>Claims will automatically round to the closest full chunk, and claim the entire vertical height of the world
@@ -50,6 +50,7 @@ Forge Essentials is developed in a modular style where each feature/system can b
   <br>Now that your claim is complete, you can trust players to it. To review your claim settings type /claim info (while standing inside the claim)
 ![Optional Alt Text](path/to/image.png)
   <br><br>Let's now add players to your claim using the command /claim trust <player> [level] Example; /claim trust thepopbox officer 
+  <br>To remove a trusted player you can issue the command /claim untrust <player>
   <br>There are three different trust levels
     <ol>
       <li>Visitor: can only interact with objects, such as open doors, switch levers etc..</li>
@@ -67,5 +68,53 @@ Forge Essentials is developed in a modular style where each feature/system can b
       <li>Mob Griefing: toggles mob griefing on and off inside the claim</li>
       <li>TNT: toggle if tnt can damage blocks inside the claim</li>
     </ol>
+<br><b>All Commands for Claim System</b>
+    <ul>
+      <li>/claim pos1</li>
+      <li>/claim pos2</li>
+      <li>/claim confirm</li>
+      <li>/claim preview</li>
+      <li>/claim info</li>
+      <li>/claim trust <player> <level></li>
+      <li>/claim untrust <player></li>
+      <li>/claim list</li>
+      <li>/claim balance</li>
+      <li>/claim remove</li>
+      <li>/claim admin</li>
+    </ul>
 </details>
+        
+# 🔱 Rank & Permission System
+<ol>
+  <li>Config-driven rank definitions</li>
+  <li>Rank inheritances</li>
+  <li>Command-base permission control</li>
+  <li>Runtime config reload</li>
+  <li>No hardcoded rank restrictions</li>
+</ol>
+<details>
+<summary><b>Click to expand section</b></summary>
+This mod allows you to create as many ranks as you want and connect there permissions using inhertance, Example: Member -> Mod -> Admin, the member rank will have most of the basic funcationally permission which you have configured, then the mod rank will inherit those permission and have a set of their own permission unqiue to them, then the admin rank will inherit the mod and member permissions with their own set of permissions.
+<br>An example setup is already preconfigured within the mods config file which can be found inside the root/configs/eutills-config.toml
+![Optional Alt Text](path/to/image.png)
+<br><br><b>All Commands for Rank System</b>
+  <ul>
+    <li>/whoami: Shows the user what rank they are and the commands they have access to</li>
+    <li>/setrank <player> <rank></li>
+  </ul>
+</details>
+
+# 🏠 Homes System
+
+# 🌏 Warps System
+
+# 🤝 Teleport System
+
+# 🗳 Voting System
+
+# ⚙ Admin Utilities
+
+# 🎨 Item Utilities
+
+# 💬 Informational Utilities
 
