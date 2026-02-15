@@ -313,3 +313,9 @@ Forge Essentials is built as a server framework; it is meant to be implemented i
 </ul>
 <br>Forge Essentials is evolving, and active development is underway. 
 <br>Contributions and suggestions are welcome 
+<hr>
+
+## 📥 Download
+
+Latest Release:  
+👉 [forge-essentials-1.0.0.jar](https://github.com/ThePopBox/Forge-Essentials/releases)
