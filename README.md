@@ -43,7 +43,7 @@ Forge Essentials is developed in a modular style, where each feature/system can 
     <li>Block cost (each chunk is 256 blocks 16x16 </li>
     <li>If the claim overlaps exisiting claims</li>
   </ul>
-![Optional Alt Text](path/to/image.png)
+![claiming step one](readme_assets/claimstep1.png)
 <br><br><b>Trust Levels</b>
   <br>After finishing previewing the selection you made, enter /claim confirm, this will create your claim.
   <br>PS. When players enter or leave your claim, you will receive a chat notification 
