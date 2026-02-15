@@ -49,8 +49,8 @@ Forge Essentials is developed in a modular style where each feature/system can b
   <br>PS. When players enter or leave your claim you will recieve a chat notifcation 
   <br>Now that your claim is complete, you can trust players to it. To review your claim settings type /claim info (while standing inside the claim)
 ![Optional Alt Text](path/to/image.png)
-  <br><br>Let's now add players to your claim using the command /claim trust <player> [level] Example; /claim trust thepopbox officer 
-  <br>To remove a trusted player you can issue the command /claim untrust <player>
+  <br><br>Let's now add players to your claim using the command /claim trust [player] [level] Example; /claim trust thepopbox officer 
+  <br>To remove a trusted player you can issue the command /claim untrust [player]
   <br>There are three different trust levels
     <ol>
       <li>Visitor: can only interact with objects, such as open doors, switch levers etc..</li>
@@ -75,8 +75,8 @@ Forge Essentials is developed in a modular style where each feature/system can b
       <li>/claim confirm</li>
       <li>/claim preview</li>
       <li>/claim info</li>
-      <li>/claim trust <player> <level></li>
-      <li>/claim untrust <player></li>
+      <li>/claim trust [player] [level]</li>
+      <li>/claim untrust [player]</li>
       <li>/claim list</li>
       <li>/claim balance</li>
       <li>/claim remove</li>
@@ -100,7 +100,7 @@ This mod allows you to create as many ranks as you want and connect there permis
 <br><br><b>All Commands for Rank System</b>
   <ul>
     <li>/whoami: Shows the user what rank they are and the commands they have access to</li>
-    <li>/setrank <player> <rank></li>
+    <li>/setrank [player] [rank]</li>
   </ul>
 </details>
 
