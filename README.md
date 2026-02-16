@@ -68,7 +68,7 @@ Forge Essentials is developed in a modular style, where each feature/system can 
 <br><br><b>Trust Levels</b>
   <br>After finishing previewing the selection you made, enter /claim confirm, this will create your claim.
   <br>PS. When players enter or leave your claim, you will receive a chat notification 
-  <br>Now that your claim is complete, you can trust players to it. To review your claim settings, type /claim info (while standing inside the claim)
+  <br>Now that your claim is complete, you can trust players to it. To review your claim settings, type /claim info (while standing inside the claim)<br>
 ![claiming step two](readme_assets/claimstep2.png)
   <br><br>Let's now add players to your claim using the command /claim trust [player] [level] Example:/claim trust thepopbox officer 
   <br>To remove a trusted player, you can issue the command /claim untrust [player]
