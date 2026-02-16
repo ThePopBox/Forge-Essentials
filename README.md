@@ -42,7 +42,7 @@ This mod is designed to be installed on the server-side only (Clients do <b>not<
 # Core Features & Systems
 Forge Essentials is developed in a modular style, where each feature/system can be completely ignored if you don't want to integrate it into your server
 
-# 🏰 Land Protection (Claims System)
+## Land Protection (Claims System)
 <ol>
   <li>Chunk-based selection system</li>
   <li>Claim preview visualizaion</li>
@@ -105,7 +105,7 @@ Forge Essentials is developed in a modular style, where each feature/system can 
     </ul>
 </details>
         
-# 🔱 Rank & Permission System
+## Rank & Permission System
 <ol>
   <li>Config-driven rank definitions</li>
   <li>Rank inheritances</li>
@@ -127,7 +127,7 @@ This mod allows you to create as many ranks as you want and connect there permis
   </ul>
 </details>
 
-# 🏠 Homes System
+## Homes System
 <ol>
   <li>Configurable amount of homes per rank</li>
   <li>Teleport back to last death </li>
@@ -147,7 +147,7 @@ This mod allows you to configure the number of homes each rank can set, and prov
 ![homes image](readme_assets/homes.png)
 </details>
 
-# 🌏 Warps System
+## Warps System
 <ol>
   <li>Server-definded warp locations</li>
   <li>Optional rank requirement per warp</li>
@@ -169,7 +169,7 @@ This mod allows you to configure a server spawn location for all players to spaw
 ![warps image](readme_assets/warps.png)
 </details>
 
-# 🤝 Teleport System
+## Teleport System
 <ol>
   <li>Player to player teleport requests</li>
   <li>Accept / deny workflow</li>
@@ -188,7 +188,7 @@ This mod allows players to request to teleport to eachother or request a player 
 ![teleport system images](readme_assets/tpa.png)
 </details>
 
-# 🗳 Voting System (Day/Night Cycle)
+## Voting System (Day/Night Cycle)
 <ol>
   <li>Day/Night vote system</li>
   <li>Cycle pause/resume support</li>
@@ -208,7 +208,7 @@ This mod allows players to vote on whether the day/night cycle should be paused 
 ![day cycle vote images](readme_assets/votep2.png)
 </details>
 
-# ⚙ Admin Utilities
+## Admin Utilities
 <ol>
   <li>Scheuled broadcast messages</li>
   <li>Qauilty of Life imrpovements for Admins</li>
@@ -236,7 +236,7 @@ This mod provides multiple administrative utilities.
 ![admin util img](readme_assets/adminu.png)
 </details>
 
-# 🎨 Item Utilities
+## Item Utilities
 <ol>
   <li>Rename items (supports formatting codes)</li>
   <li>Add/remove/list item lore</li>
@@ -257,7 +257,7 @@ This mod allows you to change item names and lore using formatting codes and sha
 ![item utils img](readme_assets/itemu.png)
 </details>
 
-# 💬 Informational Utilities
+## Informational Utilities
 <ol>
   <li>Promote server social platforms</li>
   <li>Ensure players under server rules</li>
